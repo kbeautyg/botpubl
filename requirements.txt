@@ -1,0 +1,12 @@
+aiogram>=3.3.0
+apscheduler[sqlalchemy]>=3.10.4
+sqlalchemy[asyncio]>=2.0.25
+asyncpg>=0.29.0 # Or psycopg2-binary for sync PostgreSQL driver
+python-dotenv>=1.0.0
+feedparser>=6.0.10
+pytz>=2023.3.post1
+babel>=2.14.0 # For timezone display names
+uvicorn>=0.27.0.post1 # For web process if using webhooks
+setuptools>=69.1.0 # Dependency for some packages
+Pillow>=10.2.0 # For watermarking (optional)
+beautifulsoup4>=4.12.3 # For robust HTML cleaning in RSS (optional)
